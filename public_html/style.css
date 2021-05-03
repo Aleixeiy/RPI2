@@ -1,0 +1,164 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.row
+{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.town
+{
+  font-size: 30px;
+  width: 300px;
+  height: 40px;
+}
+
+.btnWether
+{
+  width: 40px;
+  height: 40px;
+  background-image: url(./images/find.png);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.btnWether:hover
+{
+    cursor: pointer;
+    filter: inherit;
+}
+
+.wether
+{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 50px;
+  top: 60px;
+  font-size: 25px;
+}
+
+.weather-icon
+{
+  font-size: 70px;
+}
+
+body {
+  /*background-image: url(./images/day/01.jpg);*/
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  color: #000000;
+  transition:1s ease-in-out;
+}
+
+.time {
+  font-size: 8rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.time
+{
+font-size: 45px;    
+}
+
+.buttonNext
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-image: url(./images/change.jpg);
+    background-size: cover;
+    border: none;
+    filter: grayscale(100%);
+    right: 5px;
+    bottom: 5px;
+    transition:0.5s ease-in-out;
+}
+
+.buttonNext:hover
+{
+    cursor: pointer;
+    filter: inherit;
+}
+
+.focus:hover
+{
+    cursor: pointer;
+}
+
+.find
+{
+  width: 35px;
+  height: 35px;
+}
+
+.focus
+{
+  margin: 0 0 150px 0;    
+}
+
+.quoteBlock
+{
+    position: absolute;
+    bottom: 5px;
+    margin: 0 50px 0 5px;
+}
+
+.quote {
+  font: 1.2rem Georgia, serif;
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
+.quote figcaption {
+  text-align: right;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  border: 0;
+  border-radius: 50%;
+  background-image: url("https://www.pngarts.com/files/7/Update-Button-PNG-Image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(.8);
+  margin: 10px;
+}
+.btn:hover {
+  filter: grayscale(.2);
+}
+.btn:active,
+.btn:focus {
+  outline: 0;
+}
+.btn:active{
+  transform: scale(1.02)
+}

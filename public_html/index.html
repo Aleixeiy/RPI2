@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/owfont-regular.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>momentum</title>
+</head>
+<body>
+    
+<button class="buttonNext" onclick = "changeBackground()"></button>
+  
+<div class="row">
+  <input id="town" class="town" type="text" name="town">
+  <button class="btnWether"></button>
+</div>
+    
+<div class="wether">
+  <i class="weather-icon owf"></i>
+  <span class="temperature">Температура: </span>
+  <span class="wind">Скорость ветра: </span>
+  <span class="humidity">Влажность: </span>
+</div>
+
+
+
+  <time class="time"></time>
+  <h1>
+    <span class="greeting"></span>
+    <span class="name" contenteditable="true"></span>
+  </h1>
+  <h2>Какая твоя цель на сегодня?</h2>
+  <h2 class="focus" contenteditable="true"></h2>
+
+<div class="quoteBlock">
+  <button class="btn"></button>
+  <figure class="quote" id="qq">
+    <blockquote>
+      Не откладывайте на завтра то, что можно отложить на послезавтра.
+    </blockquote>
+    <figcaption> 
+      Марк Твен
+    </figcaption>
+  </figure>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
